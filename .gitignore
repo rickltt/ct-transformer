@@ -1,0 +1,8 @@
+__pycache__/
+dataset/
+output/
+pretrain_data/
+runs/
+pretrain_data_punct/
+test_data
+*.ipynb

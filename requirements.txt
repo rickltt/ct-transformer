@@ -1,0 +1,9 @@
+jieba==0.42.1
+numpy==2.1.2
+onnx==1.16.2
+onnxruntime==1.19.2
+pandas==2.2.3
+seqeval==1.2.2
+torch==2.4.0
+tqdm==4.66.5
+transformers==4.43.4
