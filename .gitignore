@@ -4,5 +4,8 @@ output/
 pretrain_data/
 runs/
 pretrain_data_punct/
+cpp/onnxruntime-linux-x64-1.19.0
+cpp/model_checkpoint
+cpp/build
 test_data
 *.ipynb
