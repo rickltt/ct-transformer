@@ -15,14 +15,22 @@ Controllable Time-delay Transformer是达摩院语音团队提出的语音识别
 
 ## 预训练
 
-预训练任务同时做了标点恢复和顺滑检测任务，使用了baikeqa和wiki_zh数据（https://github.com/brightmart/nlp_chinese_corpus），生成数据的代码可见[create_dataset.py](create_dataset.py)，预训练代码可见[pretrain.py](pretrain.py)
+预训练任务同时做了标点恢复和顺滑检测任务，使用了baikeqa和wiki_zh数据https://github.com/brightmart/nlp_chinese_corpus
+
+生成数据的代码可见[create_dataset.py](create_dataset.py)
+
+预训练代码可见[pretrain.py](pretrain.py)
 
 
 ## 微调
 
-顺滑检测使用csc数据https://github.com/shibing624/pycorrector/tree/master/examples/data/sighan_2015，生成数据的脚本可见[create_dataset.py](create_dataset.py)，微调代码[finetune.py](finetune.py)
+顺滑检测使用csc数据https://github.com/shibing624/pycorrector/tree/master/examples/data/sighan_2015
 
-标点恢复任务使用iwslt2012_zh数据https://github.com/jiangnanboy/punctuation_prediction/blob/main/data/iwslt2012_zh.rar。
+生成数据的脚本可见[create_dataset.py](create_dataset.py)
+
+微调代码[finetune.py](finetune.py)
+
+标点恢复任务使用iwslt2012_zh数据https://github.com/jiangnanboy/punctuation_prediction/blob/main/data/iwslt2012_zh.rar
 
 
 ## 效果
